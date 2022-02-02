@@ -1,0 +1,74 @@
+/* Set the padding and text alignment of the application. */
+.App {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+/* Set the width, padding and margins of the h1 headers. Also added a bottom border (styled, coloured and sized). */
+h1 {
+  width: 50%;
+  padding: 20px;
+  margin: 0px auto;
+  border-bottom: 1px solid #000000;
+}
+
+/* Set for the export form to float to the right and set the width. */
+#export-form {
+  float: right;
+  width: 320px;
+}
+
+/* Set for the import form to float to the left and set the width. */
+#import-form {
+  float: left;
+  width: 320px;
+}
+
+/* Set the height and background of the upload input fields. */
+.csv-upload-input {
+  height: 103px !important;
+  background: #81028d !important;
+}
+
+/* Set for the upload input's background colour and cursor to change once hovered over. */
+.csv-upload-input:hover {
+  background: #a514b3 !important;
+  cursor: pointer;
+}
+
+/* Set the upload and drop's placeholder font colour and weight. */
+.csv-drop-input::placeholder,
+.csv-upload-input::placeholder {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+/* Set the drop's height and background colour. */
+.csv-drop-input {
+  height: 103px !important;
+  background: green !important;
+}
+
+/* Set the top padding and the font weight of the form labels. */
+.form-label {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+/* Set the min-height, margins and text alignment of the form input area. */
+.form-control {
+  min-height: 45px !important;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/* Set the margins of the buttons. */
+.form-btn {
+  margin: 20px 5px;
+}
+
+/* Set the link's text decoration to none and changed the font colour. */
+a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
